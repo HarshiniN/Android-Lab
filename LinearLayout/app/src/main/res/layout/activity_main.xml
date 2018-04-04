@@ -6,13 +6,143 @@
     android:layout_height="match_parent"
     tools:context="com.example.harshinin.linearlayout.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="top">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:background="@color/colorAccent" >
+            <TextView
+                android:id="@+id/Color1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Red"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:id="@+id/Color2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Green"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/Color3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Blue"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:paddingLeft="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:background="@color/colorPrimaryDark">
+            <TextView
+                android:id="@+id/Color4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="grey"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical"
+            android:layout_gravity=""
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/Row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ROW ONE"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:layout_gravity=""
+            android:background="@color/colorPrimary">
+            <TextView
+                android:id="@+id/Row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ROW TWO"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:layout_gravity=""
+            android:background="@color/colorAccent">
+            <TextView
+                android:id="@+id/Row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ROW THREE"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:layout_gravity=""
+            android:background="@color/colorPrimary">
+            <TextView
+                android:id="@+id/Row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ROW FOUR"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
+
