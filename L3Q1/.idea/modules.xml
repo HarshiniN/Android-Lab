@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/L3Q1.iml" filepath="$PROJECT_DIR$/L3Q1.iml" />
+      <module fileurl="file://E:\Github\L3Q1\L3Q1.iml" filepath="E:\Github\L3Q1\L3Q1.iml" />
+      <module fileurl="file://E:\Github\L3Q1\app\app.iml" filepath="E:\Github\L3Q1\app\app.iml" />
+    </modules>
+  </component>
+</project>

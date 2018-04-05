@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\MADLab\AndroidPractice\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="9b2920468f35340f535cc1986d5c41e70636af1e">
+        <dex dex="C:\MADLab\AndroidPractice\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4850fd5bee0b5d5527ae1d222256eb1bb5513295\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\MADLab\AndroidPractice\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\MADLab\AndroidPractice\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_3eb3cc89aa6c8a288861ffa41b158125bf4fc3f4\classes.dex" />
+    </item>
+
+</items>

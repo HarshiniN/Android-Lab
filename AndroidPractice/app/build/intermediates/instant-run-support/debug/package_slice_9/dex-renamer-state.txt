@@ -1,0 +1,4 @@
+#Sun Apr 01 15:56:49 IST 2018
+base.0=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+renamed.0=classes.dex
+file.0=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+
+            android:id="@+id/add"
+            android:title="add"/>
+
+        <item
+
+            android:id="@+id/abs"
+            android:title="abs"/>
+
+        <item
+
+            android:id="@+id/trashbey"
+            android:title="trashbey"/>
+
+
+
+</menu>

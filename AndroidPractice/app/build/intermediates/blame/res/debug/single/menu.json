@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu1.xml",
+        "source": "C:\\MADLab\\AndroidPractice\\app\\src\\main\\res\\menu\\menu1.xml"
+    },
+    {
+        "merged": "C:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu2.xml",
+        "source": "C:\\MADLab\\AndroidPractice\\app\\src\\main\\res\\menu\\menu2.xml"
+    }
+]

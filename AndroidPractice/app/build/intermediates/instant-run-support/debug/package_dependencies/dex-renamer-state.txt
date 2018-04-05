@@ -1,0 +1,7 @@
+#Sun Apr 01 10:01:03 IST 2018
+base.0=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_fd172675bb74ea95d862a2fee2188840afd1ace9
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_42e914ddafa0e782a8702ab66f15d3358d6c2d36\\classes.dex
+base.1=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_42e914ddafa0e782a8702ab66f15d3358d6c2d36
+file.0=C\:\\MADLab\\AndroidPractice\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_fd172675bb74ea95d862a2fee2188840afd1ace9\\classes.dex

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.reubenabraham.androidpractice.MainActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:layout_below="@+id/text1"
+        android:layout_marginTop="10dp"
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </ListView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list1"
+        android:id="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="click"
+        android:textAllCaps="true"
+        android:onClick="click"
+        android:layout_marginTop="30dp"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/button1"
+        android:id="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:id="@+id/but"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+</RelativeLayout>
