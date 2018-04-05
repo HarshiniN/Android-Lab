@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">L5Q3</string>
+
+    <!-- Places -->
+    <string name="place_1">Place 1</string>
+    <string name="place_2">Place 2</string>
+    <string name="place_3">Place 3</string>
+    <string name="place_4">Place 4</string>
+    <string name="place_5">Place 5</string>
+    <string name="place_6">Place 6</string>
+    <string name="place_7">Place 7</string>
+    <string name="place_8">Place 8</string>
+</resources>

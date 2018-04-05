@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">L5Q1</string>
+
+    <!-- Vehicle types -->
+    <string name="type_bike">Bike</string>
+    <string name="type_scooty">Scooty</string>
+    <string name="type_auto">Auto rickshaw</string>
+    <string name="type_car">Car</string>
+    <string name="type_truck">Truck</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Sim contact"
+        android:id="@+id/menu_sim"/>
+
+    <item
+        android:id="@+id/menu_call"
+        android:title="Call contact"/>
+
+    <item
+        android:title="Message Contact"
+        android:id="@+id/menu_msg"/>
+
+    <item
+        android:id="@+id/menu_whatsapp"
+        android:title="Whatsapp details found"/>
+
+    <item
+        android:title="Gmail details found"
+        android:id="@+id/menu_gmail"/>
+</menu>
