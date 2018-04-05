@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".ViewActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/nameInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false">
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_name"
+            android:hint="@string/hint_movie_name"
+            android:singleLine="true"
+            android:inputType="textPersonName"
+            style="@style/EditorFieldStyle" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/breedInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false">
+        <!-- Breed field -->
+        <EditText
+            android:id="@+id/edit_phone_no"
+            android:hint="Year"
+            android:inputType="date"
+            android:singleLine="true"
+            style="@style/EditorFieldStyle" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/weightInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="false">
+        <!-- Weight field -->
+        <EditText
+            android:id="@+id/edit_rating"
+            android:hint="Rating"
+            android:singleLine="true"
+            android:inputType="numberDecimal"
+            style="@style/EditorFieldStyle" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

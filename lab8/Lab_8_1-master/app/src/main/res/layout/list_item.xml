@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:textColor="@color/editorColorPrimaryDark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+        android:id="@+id/contact_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Pomeranian" />
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Pomeranian" />
+
+</LinearLayout>

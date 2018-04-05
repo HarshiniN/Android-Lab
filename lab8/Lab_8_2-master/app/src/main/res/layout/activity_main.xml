@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.meanmachine.sqlt2.MainActivity">
+
+    <!--&lt;!&ndash; Label &ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Add New Label"-->
+        <!--android:padding="8dip" />-->
+
+    <!-- Input Text -->
+    <EditText android:id="@+id/input_label"
+        android:layout_width="fill_parent"
+        android:hint="Add New Label"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="23dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_label"
+        android:layout_centerHorizontal="true"
+        android:text="Add Item" />
+
+</RelativeLayout>
